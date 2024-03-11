@@ -1,8 +1,6 @@
 
 
-/*Plant watering system with new blynk update
-   https://srituhobby.com
-*/
+
 //Include the library files
 #include <LiquidCrystal_I2C.h>
 #define BLYNK_PRINT Serial
@@ -13,9 +11,9 @@
 //Initialize the LCD display
 LiquidCrystal_I2C lcd(0x27, 16, 2);
 
-char auth[] = "bgCzjoeHlKKIksUxXTjog4UniyZojb_b";//Enter your Auth token
-char ssid[] = "shiva";//Enter your WIFI name
-char pass[] = "@9652279151@";//Enter your WIFI password
+char auth[] = "***********************";//Enter your Auth token
+char ssid[] = "*****";//Enter your WIFI name
+char pass[] = "*********";//Enter your WIFI password
 
 BlynkTimer timer;
 bool Relay = 0;
